@@ -1,0 +1,306 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #72B292;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0  4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 2px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* Button */
+
+.explore-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Image */
+
+.title-image{
+    width: 80%;
+    transform: rotate(0deg);
+    /* margin: 0 100px; */
+    position: absolute;
+    right: 10%;
+}
+
+/* Profile */
+
+#profile{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.heading-profile{
+    font-family: 'Montserrat',sans-serif;
+    font-weight:700;
+    color:#000;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.deskripsi{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.profile-box{
+    text-align: center;
+    padding: 3.5%;
+
+} 
+
+.profile-icons{
+    margin: 1rem;
+    color: #72afb2;
+}
+
+.profile-icons:hover{
+    color: #72b283;
+}
+
+
+ /* Wistawan */
+#wisatawan{
+    background-color: #72b283;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.wisatawan-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.wisatawan-text{
+    font-family: 'Montserrat',sans-serif;
+    font-weight:700;
+    color:#fff;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#spending{
+    background-color: #72b283;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.spending-logo{
+ width: 15%;
+ margin: 20px 20px 50px;
+}
+
+
+
+/* Promotion */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.features-box{
+    text-align: center;
+    padding: 3.5%;
+
+} 
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Hotel & Travel */
+#hotel{
+    background-color: #639d73;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.heading{
+    font-family: 'Montserrat',sans-serif;
+    font-weight:900;
+    color:#fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+/* Objek Wisata */
+.heading-black{
+    font-family: 'Montserrat',sans-serif;
+    font-weight:700;
+    color:#000;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+#objek{
+    background-color: #fff;
+    text-align: center;
+}
+
+.objek-box{
+    text-align: center;
+    padding: 3.5%;
+
+} 
+
+.objek-icons{
+    margin: 1rem;
+    color: #72afb2;
+}
+
+.objek-icons:hover{
+    color: #72b283;
+}
+.objek-text{
+    font-family: 'Montserrat',sans-serif;
+    font-weight:700;
+    color:#000;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.features-column{
+    padding: 3% 2%;
+}
+
+/* Tenaga Kerja */
+#tk{
+    background-color: #639d73;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+
+@media  (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #hotel{
+        height: auto;
+    }
+}
+
+#cta{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+#footer{
+    background-color: #72b283;
+    text-align: center;
+    padding: 2% 4%;
+
+}
+
+.copyright{
+font-family: 'Montserrat', sans-serif;
+font-weight: medium;
+padding-top: 5px;
+font-size: 1rem;
+color: #fff;
+}
+
+.fotcon{
+    padding: 0px 5px 0 5px;
+    color: #fff;
+}
+
+/* Scroll Up */
+.scrollup{
+    position: fixed;
+    right: 2rem;
+    bottom: -20%;
+    background-color: #639d73;
+    opacity: .6;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+    z-index: auto;
+    transition: .4s;
+}
+
+.scrollup:hover{
+    background-color: #72afb2;
+}
+
+.scrollup-icon{
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* Show Scroll */
+.show-scroll{
+    bottom: 5rem;
+}
